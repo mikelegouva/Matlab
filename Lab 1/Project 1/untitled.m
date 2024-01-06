@@ -1,6 +1,12 @@
-%The code below is free to use.
-%The code below is part of a project for my university Dit|UOI
-%Code by Michail Gouvalaris
+%This code was designed by Michail Gouvalaris on January 06th 2024.
+%It is intended for academic use at the Dept. of Informatics and Telecommunication of University of Ioannina.
+
+
+%This code was designed and compiled at Matlab R2023a (9.14.0.2206163)
+
+
+%The code generates a plot of two mathematical functions (2𝑥^2 and 3𝑥^3) using MATLAB. 
+%It sets up the x-axis range, plots the functions with different line styles and colors on the same graph, labels the axes, adds a title, legend, sets axis limits, displays a grid, and ensures future plots don't overlay on the same figure.
 
 
 % Define the range for x
