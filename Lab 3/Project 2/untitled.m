@@ -1,6 +1,11 @@
-%The code below is free to use.
-%The code below is part of a project for my university Dit|UOI
-%Code by Michail Gouvalaris
+%This code was designed by Michail Gouvalaris on January 06th 2024.
+%It is intended for academic use at the Dept. of Informatics and Telecommunication of University of Ioannina.
+
+
+%This code was designed and compiled at Matlab R2023a (9.14.0.2206163)
+
+%The code loads a dataset from 'O001.txt', removes DC component, applies bandpass and low-pass filters, and then plots the original signal, signal with DC component removed, signal after bandpass filtering, signal after 50Hz cutoff filtering, and displays the spectrogram. 
+%The filtering parameters and visualization settings are specified, enhancing signal analysis and interpretation.
 
 % Load the dataset
 data = load('O001.txt');
