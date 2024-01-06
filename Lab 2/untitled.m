@@ -1,6 +1,10 @@
-%The code below is free to use.
-%The code below is part of a project for my university Dit|UOI
-%Code by Michail Gouvalaris
+%This code was designed by Michail Gouvalaris on January 06th 2024.
+%It is intended for academic use at the Dept. of Informatics and Telecommunication of University of Ioannina.
+
+
+%This code was designed and compiled at Matlab R2023a (9.14.0.2206163)
+
+%The code generates a centered sinusoidal signal with added noise, designs and applies bandpass filters of varying orders (4, 6, 8, 10, 12, 16) to the signal within a specified frequency range (0.5 Hz to 60 Hz), and then plots the original centered signal along with the filtered signals for each filter order.
 
 % Define parameters
 fs = 1000; % Sampling frequency (Hz)
