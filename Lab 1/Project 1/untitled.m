@@ -2,6 +2,7 @@
 %The code below is part of a project for my university Dit|UOI
 %Code by Michail Gouvalaris
 
+
 % Define the range for x
 x = linspace(-5, 5, 100);
 
